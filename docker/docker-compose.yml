@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: wuwahub-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: wuwahub
+      POSTGRES_PASSWORD: wuwahub_password
+      POSTGRES_DB: wuwahub
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data

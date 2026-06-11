@@ -10,6 +10,22 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-catppuccin-crust: #11111b;
+  --color-catppuccin-mantle: #181825;
+  --color-catppuccin-base: #1e1e2e;
+  --color-catppuccin-surface0: #313244;
+  --color-catppuccin-surface1: #45475a;
+  --color-catppuccin-surface2: #585b70;
+  --color-catppuccin-text: #cdd6f4;
+  --color-catppuccin-subtext1: #bac2de;
+  --color-catppuccin-subtext0: #a6adc8;
+  --color-catppuccin-overlay1: #7f849c;
+  --color-catppuccin-blue: #89b4fa;
+  --color-catppuccin-teal: #94e2d5;
+  --color-catppuccin-mauve: #cba6f7;
+  --color-catppuccin-green: #a6e3a1;
+  --color-catppuccin-yellow: #f9e2af;
+  --color-catppuccin-red: #f38ba8;
 }
 
 @media (prefers-color-scheme: dark) {
